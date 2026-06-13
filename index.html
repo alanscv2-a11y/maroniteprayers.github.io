@@ -13,7 +13,6 @@
         /* Modern Sunburst Gradient Background for the Outer Screen Canvas */
         body {
             background-color: #140a04;
-            /* Starts warm and golden-brown in the center, bursting outward to deep dark leather espresso at the corners */
             background: radial-gradient(circle at center, #402410 0%, #24140a 50%, #140a04 100%);
             color: #1c0f03; /* Deep ink for text contrast */
             font-family: 'Cormorant Garamond', serif;
@@ -24,7 +23,7 @@
             padding: 20px;
             display: flex;
             justify-content: center;
-            min-height: 100vh; /* Ensures the sunburst stretches to cover the full viewport height */
+            min-height: 100vh; 
             box-sizing: border-box;
         }
 
@@ -35,10 +34,9 @@
             background-color: #ad9979; 
             padding: 35px 30px;
             border: none; 
-            /* Balanced drop-shadow blur at 30px and opacity at 0.52 for the perfect intermediate blend */
             box-shadow: inset 0 0 45px rgba(38,22,11,0.4), 0 0 30px rgba(115,3,3,0.52); 
             border-radius: 4px;
-            margin: auto 0; /* Keeps the container beautifully centered against the sunburst */
+            margin: auto 0; 
         }
 
         /* Decorative Calligraphic Headings */
@@ -53,7 +51,7 @@
 
         h1 {
             font-size: 1.65rem; 
-            border-bottom: 1px solid rgba(115,3,3,0.3); /* Thinned out and made translucent to match the soft blend */
+            border-bottom: 1px solid rgba(115,3,3,0.3); 
             padding-bottom: 8px;
             margin-top: 10px;
             margin-bottom: 20px;
@@ -107,6 +105,25 @@
             font-weight: bold;
             font-size: 1.1rem;
             margin-right: 3px;
+        }
+
+        /* Style for our menu navigation link button */
+        .nav-link {
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+            font-family: 'Georgia', serif;
+            font-size: 0.85rem;
+            color: #7a350c;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            border-top: 1px dashed rgba(115,3,3,0.3);
+            padding-top: 15px;
+        }
+        .nav-link:hover {
+            color: #730303;
         }
     </style>
 </head>
@@ -208,7 +225,7 @@
         </div>
         <div class="verse-block">
             <span class="line">And they say, “How does God know?”</span>
-            <span class="line indent">And, "Is there any knowledge in the Most High?”</span>
+            <span class="line indent">And, “Is there any knowledge in the Most High?”</span>
         </div>
         <div class="verse-block">
             <span class="line">Such, then, are the wicked;</span>
@@ -224,7 +241,3 @@
         </div>
         <div class="verse-block">
             <span class="line">Had I thought, “I will speak as they do,”</span>
-            <span class="line indent">I had been false to the fellowship of your children.</span>
-            <a href="maronite101.html" class="nav-link">Go to Maronite 101 Section →</a>
-
-        </div>
