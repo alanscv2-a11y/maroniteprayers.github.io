@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maronite Liturgy - Saturday Evening</title>
+    <!-- Importing Upright Classical Book Fonts and Decorative Roman Headings -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Modern Sunburst Gradient Background for the Outer Screen Canvas */
+        body {
+            background-color: #140a04;
+            /* Starts warm and golden-brown in the center, bursting outward to deep dark leather espresso at the corners */
+            background: radial-gradient(circle at center, #402410 0%, #24140a 50%, #140a04 100%);
+            color: #1c0f03; /* Deep ink for text contrast */
+            font-family: 'Cormorant Garamond', serif;
+            font-style: normal;
+            font-size: 1.2rem; 
+            line-height: 1.25; 
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh; /* Ensures the sunburst stretches to cover the full viewport height */
+            box-sizing: border-box;
+        }
+
+        /* Container: Translucent crimson shadow balanced at a perfect middle-ground blend */
+        .breviary-container {
+            max-width: 600px; 
+            width: 100%;
+            background-color: #ad9979; 
+            padding: 35px 30px;
+            border: none; 
+            /* Balanced drop-shadow blur at 30px and opacity at 0.52 for the perfect intermediate blend */
+            box-shadow: inset 0 0 45px rgba(38,22,11,0.4), 0 0 30px rgba(115,3,3,0.52); 
+            border-radius: 4px;
+            margin: auto 0; /* Keeps the container beautifully centered against the sunburst */
+        }
+
+        /* Decorative Calligraphic Headings */
+        h1, h2, h3 {
+            font-family: 'Cinzel Decorative', serif;
+            color: #730303; /* Rich liturgical crimson */
+            text-align: center;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 1.65rem; 
+            border-bottom: 1px solid rgba(115,3,3,0.3); /* Thinned out and made translucent to match the soft blend */
+            padding-bottom: 8px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 1.3rem; 
+            margin-top: 30px;
+            border-top: 1px dashed rgba(115,3,3,0.25);
+            padding-top: 20px;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            margin-top: 20px;
+            color: #5c0202;
+        }
+
+        /* Rubrics: Scribe Instructions */
+        .rubric {
+            font-family: 'Georgia', serif;
+            font-size: 0.75rem; 
+            color: #7a350c; /* Deep terracotta brown */
+            text-align: center;
+            margin: 8px 0;
+            display: block;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        /* Verse Blocks and Lines */
+        .verse-block {
+            margin-bottom: 12px;
+            padding-left: 15px;
+        }
+
+        .line {
+            display: block;
+            margin-bottom: 1px;
+        }
+        
+        .line.indent {
+            padding-left: 20px; 
+        }
+
+        /* Ornamental Drop-Cap Accent Marker */
+        .cross-mark {
+            font-family: 'Cinzel Decorative', serif;
+            color: #730303;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-right: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="breviary-container">
+        
+        <h1>Saturday Evening</h1>
+        <span class="rubric">Sunday Ramsho</span>
+        
+        <h2>Introduction</h2>
+        
+        <h3>Doxology</h3>
+        <div class="verse-block">
+            <span class="line">Glory be to the Father and to the Son and to the Holy Spirit, as we begin and until we conclude.</span>
+            <span class="line">May mercy and compassion be poured forth upon us in this world and the next.</span>
+            <span class="line">O Lord, our God, to you be glory forever. Amen</span>
+        </div>
+
+        <h3>Opening Prayer</h3>
+        <div class="verse-block">
+            <span class="line">Lord, Jesus, in the richness of your grace and mercy,</span>
+            <span class="line">grant that we may praise your rising from the tomb with joyful hearts and clear consciences,</span>
+            <span class="line">glorify your victory with holy words, and proclaim your triumph with clear voices.</span>
+            <span class="line">And we shall join with the heavenly hosts in exalting your greatness and mercy,</span>
+            <span class="line">with your Father and Holy Spirit, now and forever. Amen.</span>
+        </div>
+
+        <h3>Greeting</h3>
+        <div class="verse-block">
+            <span class="line">Peace be with the Church and her children.</span>
+        </div>
+
+        <h3>Praise of the Angel</h3>
+        <div class="verse-block">
+            <span class="line">Glory to God in the highest, and peace on earth and good will to all.</span>
+        </div>
+        <div class="verse-block">
+            <span class="line">Praise the Lord all you nations, glorify him all you peoples!</span>
+            <span class="line">For steadfast is his mercy toward us, and the truth of the Lord endures forever.</span>
+            <span class="line">Glory be to the Father and to the Son and to the Holy Spirit, now and forever, and peace on earth and good will to all.</span>
+        </div>
+
+        <h2>Psalmody</h2>
+
+        <h3>First Prayer</h3>
+        <span class="rubric">Lord, have mercy on us and save us.</span>
+        <div class="verse-block">
+            <span class="line">Lord, you are the Entrance for those who seek you and the safe harbor of your stewards,</span>
+            <span class="line">you give joy to those who call upon you and rest to the weary.</span>
+            <span class="line">Grant us to find mercy in your presence on the great Day of your coming.</span>
+            <span class="line">May we be separated from the goats on your left and be joined with the sheep on your right,</span>
+            <span class="line">and give you glory and praise, now and forever. Amen.</span>
+        </div>
+
+        <h3>Psalm of the Day</h3>
+        <span class="rubric">Antiphon: God is the rock of my heart and my portion forever.</span>
+
+        <h3>Psalm 73</h3>
+        <div class="verse-block">
+            <span class="line">How good God is to the upright;</span>
+            <span class="line indent">the Lord, to those who are clean of heart!</span>
+        </div>
+        <div class="verse-block">
+            <span class="line">But, as for me, I almost lost my balance;</span>
+            <span class="line indent">my feet all but slipped,</span>
+        </div>
+        <div class="verse-block">
+            <span class="line">Because I was envious of the arrogant</span>
+            <span class="line indent">when I saw them prosper though they were wicked.</span>
+        </div>
+        <div class="verse-block">
+            <span class="line">For they are in no pain;</span>
+            <span class="line indent">their bodies are sound and sleek;</span>
+        </div>
+        <div class="verse-block">
+            <span class="line">They are free from the burdens of mortals,</span>
+            <span class="line indent">and are not afflicted like the rest of men.</span>
+        </div>
+        <div class="verse-block">
+            <span class="line">So pride adorns them as a necklace;</span>
+            <span class="line indent">as a robe violence enwraps them.</span>
+        </div>
+        <div class="verse-block">
+            <span class="line">Out of their crassness comes iniquity;</span>
+            <span class="line indent">theuy fancies overflow their hearts.</span>
+        </div>
+        <div class="verse-block">
+            <span class="line">They scoff and speak evil;</span>
+            <span class="line indent">outrage from on high they threaten.</span>
+        </div>
+        <div class="verse-block">
+            <span class="line">They set their mouthings in place of heaven,</span>
+            <span class="line indent">and their pronouncements roam the earth:</span>
+        </div>
+        <div class="verse-block">
+            <span class="line">“So he brings his people to such a pass</span>
+            <span class="line indent">that they have not even water!”</span>
+        </div>
+        <div class="verse-block">
+            <span class="line">And they say, “How does God know?”</span>
+            <span class="line indent">And, “Is there any knowledge in the Most High?”</span>
+        </div>
+        <div class="verse-block">
+            <span class="line">Such, then, are the wicked;</span>
+            <span class="line indent">always carefree, while they increase in wealth.</span>
+        </div>
+        <div class="verse-block">
+            <span class="line">Is it but in vain I have kept my heart clean,</span>
+            <span class="line indent">and washed my hands as an innocent man?</span>
+        </div>
+        <div class="verse-block">
+            <span class="line">For I suffer affliction day after day</span>
+            <span class="line indent">and chastisement with each new dawn.</span>
+        </div>
+        <div class="verse-block">
+            <span class="line">Had I thought, “I will speak as they do,”</span>
+            <span class="line indent">I had been false to the fellowship of your children.</span>
+        </div>
+        <div class="verse-block">
